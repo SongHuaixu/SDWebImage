@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
                   'and performances!'
 
   s.requires_arc = true
-  s.framework = 'ImageIO'
+  s.framework = 'ImageIO', "CFNetwork"
   
   s.default_subspec = 'Core'
 
